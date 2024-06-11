@@ -1,0 +1,215 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Benjamin Majkut} \\ \vspace{1pt}
+    \small 860-234-4864 $|$ \href{mailto:x@x.com}{\underline{bmajkut9@gmail.com}} $|$ 
+    %\href{https://linkedin.com/in/ben-majkut}{\underline{linkedin.com/in/ben-majkut}} $|$
+    \href{https://github.com/bmajkut9}{\underline{github.com/bmajkut9}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Connecticut}{Storrs, CT}
+      {Bachelor of Science in Computer Science}{Aug. 2022 -- current}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Big Y Foods, Inc.}{Aug. 2020 -- Present}
+      {Big Y World Class Market}{Mansfield Center, CT}
+      \resumeItemListStart
+        \resumeItem{Served as a dedicated cashier and service clerk for four years, demonstrating a strong commitment to customer service excellence and operational efficiency in a fast-paced retail environment.}
+        \resumeItem{Fostered positive interactions and built strong relationships with both customers and team members, contributing to a welcoming and customer-oriented store atmosphere.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Focal: Deployed Mobile App} $|$ \emph{Flutter, Dart, NoSQL database}}{Jan 2024 -- March 2024}
+          \resumeItemListStart
+            \resumeItem{Using Flutter, Dart, and UI/UX design principles, built a full stack mobile application to fulfill market need of a high quality meditation timer.}
+            \resumeItem{Leveraged Hive NoSQL database to integrate user analytics, such as streaks, total minutes meditated, session counts, and a heatmap calendar, fostering user retention.}
+            \resumeItem{Gained over 100 downloads across 34 countries within first two weeks of release, achieving international impact.}
+            \resumeItem{Successfully managed code signing and passed reviews for production release on both the Apple App Store and Google Play Store, complying with all security guidelines and quality requirements.}
+            \resumeItem{Interacted with real world users by responding to emails and reviews, enhancing community support.}
+            \resumeItem{Independently conducted all phases of app development from conceptualization and design to testing and deployment, demonstrating proficiency in full lifecycle app development.}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+          {\textbf{Paper Paradise: Website} $|$ \emph{Bootstrap, HTML/CSS, Python, Django, SQL}}{April 2024 -- June 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a real-time stock trading simulation website with HTML/CSS and Bootstrap on the frontend and Django on the backend.}
+            \resumeItem{Used Yahoo Finance API to generate current and historical market data, providing an authentic and educational investing experience.}
+            \resumeItem{Built a complex finance aggregation model with SQL and Django ORM to store and update all investment transactions.}
+            \resumeItem{Implemented a secure user authentication system leveraging Django's built-in capabilities, ensuring data privacy and user-specific transaction management.}
+          \resumeItemListEnd
+      
+      \resumeProjectHeading
+          {\textbf{YouTube Song Sorter (In Alpha testing)} $|$ \emph{JavaScript, React, YouTube API}}{May 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{Using React and YouTube API, co-created a desktop application that could access a users YouTube account and sort their liked music videos into a playlist}
+            \resumeItem{Implemented OAuth 2.0, adhering to the YouTube API's security protocols}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Statistical Model Simulation} $|$ \emph{Python}}{November 2023}
+          \resumeItemListStart
+            \resumeItem{Using Python, built a statical model of the envelope matching problem for a statistics class}
+            \resumeItem{Achieved 99.9\% accuracy with model, resulting in an A+ grade on the project}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages and Frameworks}{: Python, Bootstrap, Bash, Dart, JavaScript, SQL, HTML/CSS, Flutter, Django, React} \\
+     \textbf{Skills}{: Mobile development, Web development, UI/UX Design, Automation, Databases, Material-UI, Figma design, Command line, APIs, OAuth 2.0}
+    }}
+ \end{itemize}
+
+ \section{Personal Hobbies}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{}{Investing, Meditation, Chess, Weight lifting, Running, Tennis, Watches, Reading} \\
+    }}
+ \end{itemize}
+%-------------------------------------------
+\end{document}
+
