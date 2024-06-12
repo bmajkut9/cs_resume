@@ -1,3 +1,3 @@
 # Software Engineering Resume
 
-[Resume](resume.pdf)
+<iframe src="resume.pdf" width="100%"></iframe>
