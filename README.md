@@ -1,3 +1,5 @@
 # Software Engineering Resume
 
-<iframe src="resume.pdf" width="100%"></iframe>
+My current resume, highlighting my accomplishments as a software engineer.
+
+[Resume Link](resume.pdf)
