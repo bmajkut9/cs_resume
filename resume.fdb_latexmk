@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1718155626.84035 "c:/Users/bmajk/Desktop/cs_resume/resume.tex" "resume.pdf" "resume" 1718155627.93422 0
+["pdflatex"] 1718165508.53455 "c:/Users/bmajk/Desktop/cs_resume/resume.tex" "resume.pdf" "resume" 1718165509.58757 0
   "C:/Users/bmajk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1717978823.18659 80937 91001db6d4ae332437b4b739862cda02 ""
   "C:/Users/bmajk/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1715184397.89515 24240353 501dbaa9d36e0f93a6d33e292ba9125c ""
   "C:/Users/bmajk/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -82,9 +82,9 @@
   "C:/Users/bmajk/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1700599895 7147 d45559f8a31b8c53ada0640516660003 ""
   "C:/Users/bmajk/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1700599895 7500 db31c3d04f8bc9010e47a5efbbace9ff ""
   "C:/Users/bmajk/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/bmajk/Desktop/cs_resume/resume.tex" 1718155624.17001 8688 ca189436dd3647701f69af82afca6e7c ""
-  "resume.aux" 1718155627.73691 786 072e81f4c62e7ff57b217e8b6340e9eb "pdflatex"
-  "resume.out" 1718155627.74592 516 ad902fe594448e628120508c4438f484 "pdflatex"
+  "c:/Users/bmajk/Desktop/cs_resume/resume.tex" 1718165507.37092 8685 50b26f91ee1cca57288618ad16d5adac ""
+  "resume.aux" 1718165509.39106 786 072e81f4c62e7ff57b217e8b6340e9eb "pdflatex"
+  "resume.out" 1718165509.40104 516 ad902fe594448e628120508c4438f484 "pdflatex"
   (generated)
   "resume.aux"
   "resume.log"
